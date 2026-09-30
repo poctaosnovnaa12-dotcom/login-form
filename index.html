@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <form action="" id="form">
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label for="name">First Name:</label><br />
+                <input type="text" id="name" name="name" required /><br /><br />
+
+                <label for="surname">Surname:</label><br />
+                <input type="text" id="surname" name="surname" required /><br /><br />
+
+                <label for="email">Gmail:</label><br />
+                <input type="email" id="email" name="email" required /><br /><br />
+
+                <label for="password">Password:</label><br />
+                <input type="password" id="password" name="password" required /><br /><br />
+
+                <input type="checkbox" id="showPassword" />
+                <label for="showPassword">Show/Hide Password</label>
+            </fieldset>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
